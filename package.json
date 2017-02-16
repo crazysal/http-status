@@ -1,0 +1,34 @@
+{
+  "name": "@mauvejedi/http-status",
+  "version": "0.0.1",
+  "description": "http status response sender with code for nodejs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crazysal/http-status.git"
+  },
+  "keywords": [
+    "http",
+    "response",
+    "status",
+    "code",
+    "nodejs"
+  ],
+  "author": "Saleem Ahmed <saleem.ahmed112358@gmail.com> (http://www.salahm.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crazysal/http-status/issues"
+  },
+  "homepage": "https://github.com/crazysal/http-status#readme",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0"
+  }
+}
