@@ -1,4 +1,4 @@
-http-status
+http-status-code-node
 =========
 
 Get Explicit Command Over the Http Status Code sent With Your Response
@@ -9,7 +9,7 @@ Get Explicit Command Over the Http Status Code sent With Your Response
 
 ## Usage
 
-     	var htt =    require('http-status');
+     	var htt =    require('http-status-code-node');
      	
 		router.get('/ok', function(req, res, next) {
 			htt.ok(res,{ "title": '200 OK' });

@@ -1,5 +1,5 @@
 {
-  "name": "http-status",
+  "name": "http-status-code-node",
   "version": "1.0.0",
   "description": "http status response sender with status code for nodejs",
   "main": "index.js",
