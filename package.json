@@ -1,6 +1,6 @@
 {
   "name": "@mauvejedi/http-status",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "http status response sender with code for nodejs",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/crazysal/http-status#readme",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter nyan"
   },
   "engines": {
     "node": ">=4.2.4"

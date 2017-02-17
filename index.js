@@ -1,5 +1,5 @@
 'use strict';
-var http_status = () => {
+var http_status =  function ()  {
   var httpStat = this;
   httpStat.ok = (res, msg) => {
     typeof msg === 'object' ? res.status(200).jsonp(msg) : res.status(200).end(msg);
@@ -45,5 +45,5 @@ var http_status = () => {
     res.status(502).json(msg);
   }
 };
-http_status_obj = new http_status();
+var http_status_obj = new http_status;
 module.exports = http_status_obj;
