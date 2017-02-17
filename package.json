@@ -1,7 +1,7 @@
 {
-  "name": "@mauvejedi/http-status",
+  "name": "http-status",
   "version": "1.0.0",
-  "description": "http status response sender with code for nodejs",
+  "description": "http status response sender with status code for nodejs",
   "main": "index.js",
   "repository": {
     "type": "git",
